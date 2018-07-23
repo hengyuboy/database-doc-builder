@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gitee.hengboy</groupId>
+    <artifactId>database-doc-builder</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0.SNAPSHOT</version>
+    <modules>
+        <module>database-doc-builder-core</module>
+        <module>database-doc-builder-maven-plugin</module>
+        <module>database-doc-builder-spring-boot-starter</module>
+        <module>database-doc-builder-spring-boot-autoconfigure</module>
+    </modules>
+    <name>数据库文档生成工具</name>
+    <url>http://maven.apache.org</url>
+    <description>
+        数据库设计文档生成工具，一键生成数据库的设计文档，再也不用悲催的手写数据库设计文档，让设计数据库变得是那么的美好。
+    </description>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>2.0</version>
+        </dependency>
+    </dependencies>
+</project>
